@@ -344,6 +344,25 @@
             width: 100%;
         }
 
+        nav .btn-resume {
+            background: var(--primary);
+            color: var(--dark);
+            padding: 0.5rem 1.2rem;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        nav .btn-resume:hover {
+            background: var(--accent);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0, 191, 255, 0.4);
+        }
+
+        nav .btn-resume::after {
+            display: none;
+        }
+
         /* Container */
         .container {
             max-width: 1200px;
@@ -1025,6 +1044,7 @@
                 <li><a href="#ctf">CTF</a></li>
                 <li><a href="#terminal">Terminal</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="https://drive.google.com/file/d/1HNHIV8JaTmBH-_VkiOPZEwnDYNHb3x3x/view?usp=drive_link" target="_blank" class="btn-resume">Resume</a></li>
             </ul>
         </div>
     </nav>
